@@ -54,14 +54,14 @@ https://www.kaggle.com/datasets/nelgiriyewithana/global-weather-repository/code
 
 ## Results
 
-| Model             | MAE  | RMSE | R² Score |
-| ----------------- | ---- | ---- | -------- |
-| Linear Regression | 4.69 | 5.61 | 0.47     |
-| Random Forest     | 3.93 | 5.00 | 0.58     |
-| Gradient Boosting | 4.13 | 5.21 | 0.54     |
-| Ensemble Model    | 4.08 | 4.97 | 0.585    |
+| Model | MAE | RMSE | R² Score |
+|---------|---------|---------|---------|
+| Linear Regression | 5.31 | 6.54 | 0.43 |
+| Random Forest | 4.11 | 5.35 | 0.62 |
+| Gradient Boosting | 4.35 | 5.64 | 0.58 |
+| Ensemble Model | 4.44 | 5.60 | 0.58 |
 
-The Ensemble Model achieved the best overall performance with the lowest RMSE and highest R² Score.
+Random Forest achieved the best overall performance with the lowest RMSE of 5.35 and the highest R² Score of 0.62. The Ensemble Model also produced competitive results, but Random Forest remained the strongest model for temperature forecasting in this project.
 
 ## Key Findings
 
